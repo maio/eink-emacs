@@ -1,4 +1,3 @@
-;; -*- mode: emacs-lisp; mode: rainbow -*-
 ;;; eink-theme.el --- E Ink color theme for Emacs.
 
 ;; Copyright (C) 2013-2016 Marian Schubert
@@ -188,4 +187,11 @@
    `(eshell-prompt ((t (:foreground ,fg :weight bold))))
    `(cider-result-overlay-face ((t (:weight bold))))))
 
+;;;###autoload
+(when load-file-name
+  (add-to-list
+   'custom-theme-load-path
+   (file-name-as-directory (file-name-directory load-file-name))))
+
 (provide-theme 'eink)
+;;; eink-theme.el ends here
