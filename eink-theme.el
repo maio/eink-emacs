@@ -1,4 +1,4 @@
-;;; eink-theme.el --- E Ink color theme for Emacs.
+;;; eink-theme.el --- E Ink color theme
 
 ;; Copyright (C) 2013-2016 Marian Schubert
 
@@ -21,7 +21,7 @@
 
 ;;; Commentary:
 
-;; Low distraction, minimalistic color theme for Emacs emulating reading
+;; Low distraction, minimalistic color theme emulating reading
 ;; on E Ink devices.
 
 ;;; Credits:
