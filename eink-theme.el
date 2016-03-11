@@ -149,6 +149,10 @@
    ;; iedit
    `(iedit-occurrence ((t (:background ,bg-highlight-3 :foreground ,fg))))
 
+   ;; company
+   `(company-echo-common ((t (:foreground ,fg))))
+   `(company-tooltip-selection ((t (:background ,bg-highlight))))
+
    ;; parens - parenface
    '(parenface-paren-face ((t (:foreground "gray70"))))
    '(parenface-curly-face ((t (:foreground "gray70"))))
