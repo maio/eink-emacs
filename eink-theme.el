@@ -89,6 +89,11 @@
    `(mode-line-inactive ((t (:background ,bg-light :foreground ,bg-light :height 0.8))))
    `(mode-line-minor-mode ((t (:weight ultra-light))))
    `(modeline ((t (:background ,bg :foreground ,fg :height 0.8))))
+   `(region ((t (:background "#eeeee8" :foreground ,fg))))
+   `(slime-repl-inputed-output-face ((t (:foreground ,fg))))
+   `(whitespace-line ((t (:background ,bg-highlight-2 :foreground ,fg))))
+
+   ;; org
    `(org-agenda-date ((t (:foreground ,fg :height 1.2))))
    `(org-agenda-date-today ((t (:foreground ,fg :weight bold :height 1.4))))
    `(org-agenda-date-weekend ((t (:foreground ,fg :weight normal))))
@@ -113,9 +118,6 @@
    `(org-special-keyword ((t (:foreground ,fg))))
    `(org-todo ((t (:foreground ,fg))))
    `(org-verse ((t (:inherit org-block :slant italic))))
-   `(region ((t (:background "#eeeee8" :foreground ,fg))))
-   `(slime-repl-inputed-output-face ((t (:foreground ,fg))))
-   `(whitespace-line ((t (:background ,bg-highlight-2 :foreground ,fg))))
 
    ;; magit
    `(magit-header ((t (:weight bold))))
