@@ -192,7 +192,12 @@
    `(idle-highlight ((t (:background ,bg-highlight))))
    `(yas-field-highlight-face ((t (:background "#eeeee8" :foreground ,fg))))
    `(eshell-prompt ((t (:foreground ,fg :weight bold))))
-   `(cider-result-overlay-face ((t (:weight bold))))))
+   `(cider-result-overlay-face ((t (:weight bold))))
+
+   ;; evil
+   `(evil-ex-lazy-highlight ((t (:background ,bg-highlight-2))))
+   `(evil-ex-substitute-matches ((t (:background ,bg-highlight-2))))
+   `(evil-ex-substitute-replacement ((t (:background ,bg-highlight :underline nil :foreground ,fg))))))
 
 ;;;###autoload
 (when load-file-name
