@@ -194,6 +194,10 @@
    `(eshell-prompt ((t (:foreground ,fg :weight bold))))
    `(cider-result-overlay-face ((t (:weight bold))))
 
+   ;; evil-quickscope
+   `(evil-quickscope-first-face ((t (:foreground ,fg :background "#eeeee8"))))
+   `(evil-quickscope-second-face ((t (:foreground ,fg :background ,bg-highlight))))
+
    ;; evil
    `(evil-ex-lazy-highlight ((t (:background ,bg-highlight-2))))
    `(evil-ex-substitute-matches ((t (:background ,bg-highlight-2))))
