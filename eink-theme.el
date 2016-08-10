@@ -125,9 +125,17 @@
    `(magit-item-highlight ((t (:weight bold))))
    `(magit-section-heading ((t (:weight bold :height 1.2))))
    `(magit-section-highlight ((t (:inherit default))))
-   `(magit-diff-context-highlight ((t (:weight bold))))
+   `(magit-diff-context-highlight ((t (:foreground ,fg))))
    `(magit-branch-local ((t (:weight bold))))
    `(magit-branch-remote ((t (:weight bold))))
+
+   ;; diff
+   `(diff-refine-added ((t (:background "#a4f4a3"))))
+   `(diff-refine-removed ((t (:background "#f9cbca"))))
+   `(magit-diff-added-highlight ((t (:weight demibold :background "#e9ffe9"))))
+   `(magit-diff-added ((t (:background "#e9ffe9"))))
+   `(magit-diff-removed-highlight ((t (:weight demibold :background "#ffecec"))))
+   `(magit-diff-removed ((t (:background "#ffecec"))))
 
    ;; compile
    `(compilation-error ((t (:inherit error))))
