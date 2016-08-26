@@ -204,7 +204,11 @@
 
    ;; evil-quickscope
    `(evil-quickscope-first-face ((t (:foreground ,fg :background "#eeeee8"))))
-   `(evil-quickscope-second-face ((t (:foreground ,fg :background ,bg-highlight))))
+   `(evil-quickscope-second-face ((t (:foreground ,fg :background ,bg-highlight-3))))
+
+   ;; evil-snipe
+   `(evil-snipe-first-match-face ((t (:foreground ,fg :background "#eeeee8"))))
+   `(evil-snipe-matches-face ((t (:foreground ,fg :background ,bg-highlight-3))))
 
    ;; evil
    `(evil-ex-lazy-highlight ((t (:background ,bg-highlight-2))))
