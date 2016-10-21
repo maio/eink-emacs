@@ -120,11 +120,11 @@
    `(org-verse ((t (:inherit org-block :slant italic))))
 
    ;; magit
-   `(magit-header ((t (:weight bold))))
+   `(magit-header ((t (:weight semi-bold))))
    `(magit-item-mark ((t (:background ,bg-highlight))))
    `(magit-item-highlight ((t (:weight bold))))
-   `(magit-section-heading ((t (:weight bold :height 1.2))))
-   `(magit-section-highlight ((t (:inherit default))))
+   `(magit-section-heading ((t (:weight semi-bold :height 1.2))))
+   `(magit-section-highlight ((t (:weight semi-bold))))
    `(magit-diff-context-highlight ((t (:foreground ,fg))))
    `(magit-branch-local ((t (:weight bold))))
    `(magit-branch-remote ((t (:weight bold))))
