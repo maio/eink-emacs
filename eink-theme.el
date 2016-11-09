@@ -200,6 +200,9 @@
    `(rpm-spec-ghost-face ((t (:inherit default))))
    `(rpm-spec-section-face ((t (:inherit default :weight bold))))
 
+   ;; nlinum-relative
+   `(nlinum-relative-current-face ((t (:inherit normal :weight bold))))
+
    ;; misc
    `(idle-highlight ((t (:background ,bg-highlight))))
    `(yas-field-highlight-face ((t (:background "#eeeee8" :foreground ,fg))))
