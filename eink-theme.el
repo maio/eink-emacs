@@ -130,6 +130,8 @@
    `(magit-branch-remote ((t (:weight bold))))
 
    ;; diff
+   `(diff-added ((t (:background "#e9ffe9"))))
+   `(diff-removed ((t (:background "#ffecec"))))
    `(diff-refine-added ((t (:background "#a4f4a3"))))
    `(diff-refine-removed ((t (:background "#f9cbca"))))
    `(magit-diff-added-highlight ((t (:weight demibold :background "#e9ffe9"))))
