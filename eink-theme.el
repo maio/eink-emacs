@@ -137,6 +137,10 @@
    `(magit-diff-removed-highlight ((t (:weight demibold :background "#ffecec"))))
    `(magit-diff-removed ((t (:background "#ffecec"))))
 
+   ;; git-timemachine
+   `(git-timemachine-minibuffer-author-face ((t (:inherit default))))
+   `(git-timemachine-minibuffer-detail-face ((t (:weight bold))))
+
    ;; compile
    `(compilation-error ((t (:inherit error))))
 
