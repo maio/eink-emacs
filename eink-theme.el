@@ -209,6 +209,9 @@
    ;; nlinum-relative
    `(nlinum-relative-current-face ((t (:inherit normal :weight bold))))
 
+   ;; web-mode
+   `(web-mode-current-element-highlight-face ((t (:inherit normal :weight bold :foreground ,fg))))
+
    ;; misc
    `(idle-highlight ((t (:background ,bg-highlight))))
    `(yas-field-highlight-face ((t (:background "#eeeee8" :foreground ,fg))))
