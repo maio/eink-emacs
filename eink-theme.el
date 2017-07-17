@@ -38,6 +38,7 @@
   "Theme emulating reading on an E Ink device.")
 
 (let ((fg "#111111")
+      (fg-table "#222291")
       (bg "#fffff8")
       (bg-light "#ddddd8")
       (fg-light "#ddddd8")
@@ -119,6 +120,7 @@
    `(org-special-keyword ((t (:foreground ,fg))))
    `(org-todo ((t (:foreground ,fg))))
    `(org-verse ((t (:inherit org-block :slant italic))))
+   `(org-table ((t (:foreground ,fg-table))))
 
    ;; magit
    `(magit-header ((t (:weight semi-bold))))
