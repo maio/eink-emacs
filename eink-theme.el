@@ -122,6 +122,10 @@
    `(org-verse ((t (:inherit org-block :slant italic))))
    `(org-table ((t (:foreground ,fg-table))))
 
+   ;; powerline
+   `(powerline-active1 ((t (:background "grey22" :foreground ,bg :inherit mode-line))))
+   `(powerline-active2 ((t (:background "grey40" :foreground ,bg :inherit mode-line))))
+
    ;; magit
    `(magit-header ((t (:weight semi-bold))))
    `(magit-item-mark ((t (:background ,bg-highlight))))
