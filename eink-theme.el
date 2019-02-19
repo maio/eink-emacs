@@ -87,7 +87,7 @@
    `(minibuffer-prompt ((t (:foreground ,fg :weight bold))))
    `(mode-line ((t (:background ,bg-light :foreground ,fg :height 0.8))))
    `(mode-line-buffer ((t (:foreground ,fg :weight bold))))
-   `(mode-line-inactive ((t (:background ,bg-light :foreground ,bg-light :height 0.8))))
+   `(mode-line-inactive ((t (:background ,bg-light :foreground ,fg :height 0.8))))
    `(mode-line-minor-mode ((t (:weight ultra-light))))
    `(modeline ((t (:background ,bg :foreground ,fg :height 0.8))))
    `(region ((t (:background "#eeeee8" :foreground ,fg))))
@@ -219,6 +219,9 @@
 
    ;; web-mode
    `(web-mode-current-element-highlight-face ((t (:inherit normal :weight bold :foreground ,fg))))
+
+   ;; mmm-mode
+   `(mmm-default-submode-face ((t (:inherit normal :background "#ffffef"))))
 
    ;; misc
    `(idle-highlight ((t (:background ,bg-highlight))))
